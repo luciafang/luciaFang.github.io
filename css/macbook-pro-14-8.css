@@ -22,19 +22,6 @@
   width: 1497px;
 }
 
-.macbook-pro-14-8 .mac-book-pro-14-2 {
-  align-items: flex-start;
-  background-color: var(--white);
-  display: flex;
-  flex-direction: column;
-  height: 3130px;
-  left: 0;
-  padding: 29px 0;
-  position: absolute;
-  top: 0;
-  width: 1497px;
-}
-
 .macbook-pro-14-8 .div {
   align-items: center;
   cursor: pointer;
@@ -72,13 +59,6 @@
   width: fit-content;
 }
 
-.macbook-pro-14-8 .thumbnail-1 {
-  height: 716px;
-  margin-top: 31px;
-  object-fit: cover;
-  width: 1492px;
-}
-
 .macbook-pro-14-8 .fall-2022-ux-design {
   height: 19px;
   letter-spacing: 1.12px;
@@ -86,20 +66,6 @@
   margin-left: 120px;
   margin-top: 18px;
   white-space: nowrap;
-}
-
-.macbook-pro-14-8 .our-website-rate-my {
-  align-self: center;
-  color: var(--black);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxxxxl);
-  font-weight: 400;
-  height: 165px;
-  letter-spacing: 0.44px;
-  line-height: 27.5px;
-  margin-right: 44.0px;
-  margin-top: 23px;
-  width: 1213px;
 }
 
 .macbook-pro-14-8 .flex-row {
@@ -130,13 +96,6 @@
   top: 22px;
 }
 
-.macbook-pro-14-8 .specific-pre-determ {
-  height: 202px;
-  letter-spacing: 0.36px;
-  line-height: 25.2px;
-  width: 795px;
-}
-
 .macbook-pro-14-8 .overlap-group-1 {
   align-items: flex-start;
   background-color: #e5d2e1;
@@ -150,17 +109,6 @@
   top: 0;
 }
 
-.macbook-pro-14-8 .top-5-features {
-  color: var(--mahogany);
-  font-family: var(--font-family-inter);
-  font-size: 13px;
-  font-weight: 700;
-  height: 17px;
-  letter-spacing: 0.98px;
-  line-height: normal;
-  width: 128px;
-}
-
 .macbook-pro-14-8 .flex-col {
   flex-direction: column;
   gap: 7px;
@@ -169,7 +117,7 @@
   width: 387px;
 }
 
-.macbook-pro-14-8 .overlap-group2 {
+.macbook-pro-14-8 .overlap-group1 {
   height: 115px;
   position: relative;
   width: 342px;
@@ -188,10 +136,6 @@
 }
 
 .macbook-pro-14-8 .skills {
-  color: var(--black);
-  font-family: var(--font-family-inter);
-  font-size: 19px;
-  font-weight: 700;
   height: 24px;
   letter-spacing: 0.40px;
   line-height: normal;
@@ -200,31 +144,7 @@
   width: 85px;
 }
 
-.macbook-pro-14-8 .divcomp-kxb {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-  min-height: 86px;
-  padding: 2px 0;
-  width: 160px;
-}
-
-.macbook-pro-14-8 .storyboarding {
-  height: 22px;
-  letter-spacing: 0.36px;
-  line-height: 28.8px;
-  white-space: nowrap;
-}
-
 .macbook-pro-14-8 .usability-testing {
-  height: 22px;
-  letter-spacing: 0.36px;
-  line-height: 28.8px;
-  white-space: nowrap;
-}
-
-.macbook-pro-14-8 .wireframing {
   height: 22px;
   letter-spacing: 0.36px;
   line-height: 28.8px;
@@ -242,17 +162,6 @@
   width: 64px;
 }
 
-.macbook-pro-14-8 .address {
-  height: 22px;
-  left: 227px;
-  letter-spacing: 0.36px;
-  line-height: 28.8px;
-  position: absolute;
-  top: 28px;
-  white-space: nowrap;
-  width: 77px;
-}
-
 .macbook-pro-14-8 .timeline {
   height: 24px;
   left: 227px;
@@ -264,29 +173,7 @@
   width: 101px;
 }
 
-.macbook-pro-14-8 .divcomp-kxb-container {
-  align-items: flex-start;
-  display: flex;
-  gap: 67px;
-  height: 86px;
-  min-width: 387px;
-}
-
-.macbook-pro-14-8 .think-aloud-study {
-  height: 22px;
-  letter-spacing: 0.36px;
-  line-height: 28.8px;
-  white-space: nowrap;
-}
-
 .macbook-pro-14-8 .prototyping {
-  height: 22px;
-  letter-spacing: 0.36px;
-  line-height: 28.8px;
-  white-space: nowrap;
-}
-
-.macbook-pro-14-8 .figma {
   height: 22px;
   letter-spacing: 0.36px;
   line-height: 28.8px;
@@ -302,40 +189,6 @@
   min-height: 58px;
   padding: 2px 0;
   width: 160px;
-}
-
-.macbook-pro-14-8 .divcomp-kyey590p {
-  align-self: center;
-  border-color: #e8e6e6;
-  border-top-style: solid;
-  border-top-width: 1px;
-  height: 5px;
-  margin-right: 69.0px;
-  margin-top: 13px;
-  width: 1194px;
-}
-
-.macbook-pro-14-8 .prototyping-wireframing {
-  color: var(--mahogany);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxxxxl);
-  font-weight: 700;
-  height: 48px;
-  letter-spacing: 0.84px;
-  line-height: normal;
-  margin-left: 120px;
-  margin-top: 54px;
-  min-width: 281px;
-  text-align: center;
-}
-
-.macbook-pro-14-8 .throughout-the-devel {
-  height: 194px;
-  letter-spacing: 0.36px;
-  line-height: 25.2px;
-  margin-left: 120px;
-  margin-top: 110px;
-  width: 703px;
 }
 
 .macbook-pro-14-8 .overlap-group-container {
@@ -355,78 +208,11 @@
   width: 1114px;
 }
 
-.macbook-pro-14-8 .in-addition-to-the-s {
-  height: 825px;
-  left: 566px;
-  letter-spacing: 0.36px;
-  line-height: 25.2px;
-  position: absolute;
-  top: 0;
-  width: 548px;
-}
-
-.macbook-pro-14-8 .rate-my-cmu-ta-high-fidelity {
-  color: var(--star-dust);
-  font-family: var(--font-family-inter);
-  font-size: 14px;
-  font-weight: 400;
-  height: 19px;
-  left: 0;
-  letter-spacing: 0.32px;
-  line-height: 22.4px;
-  position: absolute;
-  top: 715px;
-  white-space: nowrap;
-  width: 786px;
-}
-
-.macbook-pro-14-8 .overlap-group1 {
+.macbook-pro-14-8 .overlap-group2 {
   height: 662px;
   left: 0;
   position: absolute;
   top: 35px;
-  width: 703px;
-}
-
-.macbook-pro-14-8 .divcomp-kyrqov39 {
-  align-items: flex-end;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  left: 134px;
-  min-height: 150px;
-  position: absolute;
-  top: 197px;
-  width: 253px;
-}
-
-.macbook-pro-14-8 .screen-shot-2023-01-31-at-203-1 {
-  height: 432px;
-  margin-right: -881px;
-  margin-top: -660px;
-  object-fit: cover;
-  width: 530px;
-}
-
-.macbook-pro-14-8 .rate-my-cmu-ta-prototyping {
-  color: var(--star-dust);
-  font-family: var(--font-family-inter);
-  font-size: 14px;
-  font-weight: 400;
-  height: 19px;
-  letter-spacing: 0.32px;
-  line-height: 22.4px;
-  margin-right: -1083.62px;
-  white-space: nowrap;
-  width: 588px;
-}
-
-.macbook-pro-14-8 .bake-off1-1-2-1 {
-  height: 662px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
   width: 703px;
 }
 
@@ -637,7 +423,7 @@
 
 .macbook-pro-14-8 .display-paste-your-img {
   align-items: flex-start;
-  background-color: var(--black);
+  background-color: var(--defaultshadeblack);
   display: flex;
   justify-content: center;
   margin-right: 0.28px;
@@ -820,7 +606,6 @@
   line-height: 19.2px;
   margin-top: -1.00px;
   position: relative;
-  white-space: nowrap;
   width: 254px;
 }
 
@@ -834,11 +619,4 @@
   display: flex;
   position: relative;
   width: fit-content;
-}
-
-.macbook-pro-14-8 .user {
-  height: 22px;
-  letter-spacing: 0.36px;
-  line-height: 28.8px;
-  white-space: nowrap;
 }

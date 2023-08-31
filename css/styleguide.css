@@ -1,11 +1,16 @@
 :root { 
   --alabaster: #fafafa;
   --athens-gray: #edf1f1;
-  --black: #000000;
   --cape-cod: #424242;
+  --cardinal-pink: #890066;
+  --charade: #2d2936;
   --chestnut: #b75e5e;
   --cod-gray: #0a0b0d;
   --cosmic: #74405e;
+  --defaultgray500: #a0aec0;
+  --defaultgray700: #4a5568;
+  --defaultgray900: #1a202c;
+  --defaultshadeblack: #000000;
   --dove-gray: #707070;
   --dove-gray-2: #6d6d6d;
   --eerie-black: #1a1b1f;
@@ -19,11 +24,14 @@
   --onyx: #353738;
   --onyx-2: #3a3a3a;
   --outrageous-orange: #ff5b37;
+  --patina: #5e9393;
   --pearly-purple: #b16a99;
   --picton-blue: #3ac8e8;
+  --picton-blue-2: #2cb4ef;
   --princess-perfume: #ff98d5;
   --purple: #7308a5;
   --quick-silver: #9fa6a9;
+  --science-blue: #0057e1;
   --sea-serpent: #3fc8e1;
   --shilo: #e7b3b3;
   --snuff: #dcd4e7;
@@ -62,7 +70,7 @@
 }
 
 .montserrat-normal-black-11px {
-  color: var(--black);
+  color: var(--defaultshadeblack);
   font-family: var(--font-family-montserrat);
   font-size: var(--font-size-m);
   font-style: normal;
@@ -70,7 +78,7 @@
 }
 
 .poppins-medium-black-11px {
-  color: var(--black);
+  color: var(--defaultshadeblack);
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-m);
   font-style: normal;
@@ -78,7 +86,7 @@
 }
 
 .kantumruy-light-black-11px {
-  color: var(--black);
+  color: var(--defaultshadeblack);
   font-family: var(--font-family-kantumruy);
   font-size: var(--font-size-m);
   font-style: normal;
@@ -86,7 +94,7 @@
 }
 
 .inter-normal-black-16px {
-  color: var(--black);
+  color: var(--defaultshadeblack);
   font-family: var(--font-family-inter);
   font-size: var(--font-size-xxl);
   font-style: normal;
@@ -102,7 +110,7 @@
 }
 
 .poppins-normal-black-11px {
-  color: var(--black);
+  color: var(--defaultshadeblack);
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-m);
   font-style: normal;
@@ -133,7 +141,7 @@
 }
 
 .montserrat-bold-black-20px {
-  color: var(--black);
+  color: var(--defaultshadeblack);
   font-family: var(--font-family-montserrat);
   font-size: var(--font-size-xxxxxl);
   font-style: normal;
@@ -157,7 +165,7 @@
 }
 
 .inter-normal-black-17px {
-  color: var(--black);
+  color: var(--defaultshadeblack);
   font-family: var(--font-family-inter);
   font-size: var(--font-size-xxxl);
   font-style: normal;
@@ -165,7 +173,7 @@
 }
 
 .poppins-medium-black-16px {
-  color: var(--black);
+  color: var(--defaultshadeblack);
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-xxl);
   font-style: normal;
@@ -173,7 +181,7 @@
 }
 
 .inter-thin-black-11px {
-  color: var(--black);
+  color: var(--defaultshadeblack);
   font-family: var(--font-family-inter);
   font-size: var(--font-size-m);
   font-style: italic;
@@ -229,7 +237,7 @@
 }
 
 .poppins-bold-black-11px {
-  color: var(--black);
+  color: var(--defaultshadeblack);
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-m);
   font-style: normal;
@@ -285,7 +293,7 @@
 }
 
 .inter-normal-black-12px {
-  color: var(--black);
+  color: var(--defaultshadeblack);
   font-family: var(--font-family-inter);
   font-size: var(--font-size-l);
   font-style: normal;
@@ -293,7 +301,7 @@
 }
 
 .inter-bold-black-11px {
-  color: var(--black);
+  color: var(--defaultshadeblack);
   font-family: var(--font-family-inter);
   font-size: var(--font-size-m);
   font-style: normal;
@@ -301,7 +309,7 @@
 }
 
 .poppins-medium-black-20px {
-  color: var(--black);
+  color: var(--defaultshadeblack);
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-xxxxxl);
   font-style: normal;
@@ -317,7 +325,7 @@
 }
 
 .rubik-bold-black-14-4px {
-  color: var(--black);
+  color: var(--defaultshadeblack);
   font-family: var(--font-family-rubik);
   font-size: 14.4px;
   font-style: normal;
@@ -333,7 +341,7 @@
 }
 
 .inter-bold-black-20px {
-  color: var(--black);
+  color: var(--defaultshadeblack);
   font-family: var(--font-family-inter);
   font-size: var(--font-size-xxxxxl);
   font-style: normal;
@@ -354,4 +362,130 @@
   font-size: var(--font-size-xxxxxl);
   font-style: normal;
   font-weight: 400;
+}
+
+.kantumruy-bold-black-60px {
+  color: var(--defaultshadeblack);
+  font-family: var(--font-family-kantumruy);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.kantumruy-light-cosmic-11px {
+  color: var(--cosmic);
+  font-family: var(--font-family-kantumruy);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.kantumruy-bold-black-11px {
+  color: var(--defaultshadeblack);
+  font-family: var(--font-family-kantumruy);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-bold-eerie-black-16px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-mahogany-30px {
+  color: var(--mahogany);
+  font-family: var(--font-family-inter);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-black-19px {
+  color: var(--defaultshadeblack);
+  font-family: var(--font-family-inter);
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-star-dust-14px {
+  color: var(--star-dust);
+  font-family: var(--font-family-inter);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-bold-white-36px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-normal-white-11px {
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-normal-black-15px {
+  color: var(--defaultshadeblack);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-bold-black-16px {
+  color: var(--defaultshadeblack);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-bold-eerie-black-40px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-montserrat);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-normal-dove-gray-16px-2 {
+  color: var(--dove-gray);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-black-16px {
+  color: var(--defaultshadeblack);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-normal-white-20px-2 {
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-black-11px {
+  color: var(--defaultshadeblack);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
 }
