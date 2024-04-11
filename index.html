@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucia's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Lucia Fang" width="80">
+        </figure>
+
+        <div class="info-content">
+          <!-- <h1 class="name" title="Lucia Fang">Lucia Fang (Carnegie Mellon University)</h1> -->
+          <a href="https://www.linkedin.com/in/lucia-fangyu/" target="_blank" style="text-decoration: underline; text-decoration-color: white;">
+            <h1 class="name" title="Lucia Fang">Lucia Fang</h1>
+          </a>
+          
+          <!-- <p class="title">BS | Information Systems</p> -->
+          <!-- <p class="title">CMU Dietrich College Dean’s List with High Honors 2021-2022 & 2022-2023</p> -->
+          <p class="title" style="font-size: 12px;">Passionate in pursuing <br>PhD in Edutech</p>
+          
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:yufang@andrew.cmu.edu" class="contact-link" style="font-size: 10px;">yufang@andrew.cmu.edu</a>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+        <!-- <div class="separator"></div>
+
+        <ul class="social-list">
+
+
+        </ul> -->
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="Lucia Fang_Resume.pdf" class="navbar-link active" data-nav-link>
+                <span style="text-decoration: underline;">Resume</span>
+            </a>
+          </li>
+        
+        
+
+          <!-- <li class="navbar-item">
+             <button class="navbar-link" data-nav-link>Resume</button>
+          </li> -->
+
+        </ul>
+
+      </nav> 
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+
+          <p>
+            Hello, I am currently a third-year Information Systems major at Carnegie Mellon University, 
+            with a concentation in Data Analysis. My academic endeavors are driven by a passion to revolutionize 
+            educational experiences, making them more tailored to individual needs. 
+            I am deeply interested in harnessing technologies to enhance interpersonal communications
+            as well as advancing teacher professional 
+            development through innovative classroom sensing techniques.
+
+            I am eager to further explore these interests by pursuing a PhD in educational technology, 
+            with the aim of starting my doctoral studies in the Fall 2025.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <!-- trash -->
+        <section class="service">
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+  
+              <h3 class="h3">Research Awards</h3>
+            </div>
+  
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h3 timeline-item-title">Small Undergraduate Research Grants (SURG), CMU</h4>
+                <span>2024 Spring</span>
+                <p class="timeline-text">
+                  Awarded a $500 SURG grant for developing "COPUSense," a Streamlit App application to evaluate STEM classroom practices using machine learning and EduSense technology; responsible for conducting comprehensive research, including model building, data analysis, and application development, aimed at improving personalized learning in STEM classrooms; scheduled to present findings at the 2024 Undergraduate Research Symposium.
+                </p>
+
+                <br>
+                <span style="color: hsl(71, 38%, 52%);">Skills: Silhouette, SMOTE, Leave One Out, SMOTE, K-Means Clustering, ADASYN</span>
+
+              </li>
+            </ol>
+          <!-- trash ends -->
+  
+          </section>
+
+          <h3 class="h3 service-title">Projects</h3>
+          <section class="projects">
+
+            <ul class="filter-list">
+  
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+  
+              <li class="filter-item">
+                <button data-filter-btn>Research</button>
+              </li>
+
+  
+              <li class="filter-item">
+                <button data-filter-btn>Course Projects</button>
+              </li> 
+  
+              
+
+            </ul> 
+  
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>Select category</div>
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+            </div> 
+
+            <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="research">
+              <a href="honors_thesis_proposal.pdf">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+                <h3 class="project-title">Senior Honor Thesis: A Real-time Application to
+                  Alert Instructors of Their Confused Students</h3>
+                <p class="project-category">EduSense/ Edulyze</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="research">
+              <a href="yufang_proposal.pdf">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+                <h3 class="project-title">SURG: Teaching style differences explained by a machine learning model</h3>
+                <p class="project-category">EduSense/ Edulyze</p>
+              </a>
+            </li>
+            
+            <li class="project-item active" data-filter-item data-category="research">
+              <a href="Indepdendent_Study_Fall23.pdf">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+                <h3 class="project-title">Independent Study 2023Fall: Teaching style differences explained by a machine learning model</h3>
+                <p class="project-category">EduSense</p>
+              </a>
+            </li>
+            
+
+            <li class="project-item  active" data-filter-item data-category="course projects">
+              <a href="https://github.com/luciafang/tiktok_databaseproject">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+                <h3 class="project-title">TikTok Database Project</h3>
+                <p class="project-category">67-262 Database Design and Development</p>
+
+              </a>
+            </li>
+
+            
+
+            <li class="project-item active" data-filter-item data-category="course projects">
+              <a href="https://github.com/luciafang/emotion-sensing">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-6.png" alt="summary" loading="lazy">
+                </figure>
+                <h3 class="project-title">EmoSense - A tool for improving mental health</h3>
+                <p class="project-category">17-422 Building User-Focused Sensing Systems</p>
+            
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="course projects">
+              <a href="upcoming.pdf">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/ruby.png" alt="summary" loading="lazy">
+                </figure>
+                <h3 class="project-title">Ruby on Rails + React</h3>
+                <p class="project-category">67-272 App Design & Development</p>
+            
+              </a>
+            </li>
+
+
+            <li class="project-item active" data-filter-item data-category="course projects">
+              <a href="upcoming.pdf">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/supervised.jpg" alt="summary" loading="lazy">
+                </figure>
+                <h3 class="project-title">Harmonizing Health: Machine Learning-Driven Music Therapy</h3>
+                <p class="project-category">67-364 Data Science</p>
+            
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </section>
+
+        </div>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+ 
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
