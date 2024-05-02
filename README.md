@@ -8,4 +8,4 @@ Teacher Development: Focused on advancing professional development for educators
 
 
 **Future Goals**
-I am looking forward to deepening my expertise by pursuing a PhD in Educational Technology. My goal is to commence my doctoral studies in Fall 2025. This next step will allow me to explore and expand on innovative strategies that leverage technology to improve education systems.
+I am looking forward to deepening my expertise by pursuing a PhD. My goal is to commence my doctoral studies in Fall 2025. This next step will allow me to explore and expand on innovative strategies that leverage technology to improve education systems.
